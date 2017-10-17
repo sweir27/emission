@@ -1,6 +1,7 @@
 import * as _ from "lodash"
 import * as React from "react"
-import { createRefetchContainer, graphql, RelayRefetchProp } from "react-relay"
+import { createRefetchContainer, graphql } from "react-relay"
+import { RelayRefetchProp } from "react-relay"
 
 import {
   Dimensions,

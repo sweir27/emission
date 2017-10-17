@@ -1,5 +1,6 @@
 import * as React from "react"
-import { graphql, QueryRenderer, QueryRendererProps } from "react-relay"
+import { graphql, QueryRenderer } from "react-relay"
+import { QueryRendererProps } from "react-relay"
 
 // tslint:disable:no-unused-expression
 import Artist from "../Containers/Artist"

@@ -2,6 +2,9 @@ import * as _ from "lodash"
 import * as React from "react"
 import { createRefetchContainer, graphql, RelayRefetchProp } from "react-relay"
 
+import * as RelayModern from "react-relay"
+console.log(RelayModern)
+
 import {
   Dimensions,
   Image,

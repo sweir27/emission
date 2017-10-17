@@ -1,5 +1,6 @@
 import * as React from "react"
-import { createRefetchContainer, graphql, RelayRefetchProp } from "react-relay"
+import { createRefetchContainer, graphql } from "react-relay"
+import { RelayRefetchProp } from "react-relay"
 import styled from "styled-components/native"
 
 import { RefreshControl, ScrollView, View } from "react-native"

@@ -1,5 +1,6 @@
 import * as React from "react"
-import { createPaginationContainer, graphql, RelayPaginationProp } from "react-relay"
+import { createPaginationContainer, graphql } from "react-relay"
+import { RelayPaginationProp } from "react-relay"
 import styled from "styled-components/native"
 
 import { ListView, ListViewDataSource, View } from "react-native"

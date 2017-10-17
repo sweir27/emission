@@ -1,6 +1,7 @@
 import { MarkdownString } from "danger/distribution/dsl/Aliases"
 import * as React from "react"
-import { createFragmentContainer, graphql, RelayPaginationProp } from "react-relay"
+import { createFragmentContainer, graphql } from "react-relay"
+import { RelayPaginationProp } from "react-relay"
 import { ConnectionHandler } from "relay-runtime"
 
 import { MetadataText, SmallHeadline } from "../Components/Inbox/Typography"

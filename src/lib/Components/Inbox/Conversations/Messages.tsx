@@ -1,6 +1,7 @@
 import * as React from "react"
 import { ActivityIndicator, Dimensions, FlatList, RefreshControl } from "react-native"
-import { createPaginationContainer, graphql, RelayPaginationProp } from "react-relay"
+import { createPaginationContainer, graphql } from "react-relay"
+import { RelayPaginationProp } from "react-relay"
 
 import ARSwitchBoard from "../../../NativeModules/SwitchBoard"
 import Message from "./Message"
